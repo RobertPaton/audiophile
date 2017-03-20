@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Audiophile - Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Notes-->
+<!--HTML5 outliner showing Carousel before Navigation, don't know why.-->
+<!--HTML Validator detects Role as error.-->
+
+    <!--<nav class="bs-docs-footer" role="contentinfo">
+        <h1 class="hidden">Navigation</h1>
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <img src="images/logo.svg" alt="Audiophile Logo">
+        <a href="product.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>-->
+
+    <nav class="navbar navbar-default" id="nav">
+        <div class="container-fluid" id="cont">
+            <div class="navbar-header" id="navHead">
+                <img src="images/logo.svg" alt="Audiophile Logo">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right" id="navLink">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div id="carousel-example-generic" class="carousel slide">
+<h2 class="hidden">Carousel</h2>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+
+<!-- Wrapper for slides -->
+<div class="carousel-inner">
+    <div class="item active">
+        <img src="images/1.jpg" alt="Image Filler" class="img-responsive">
+            <div class="carousel-caption" id="cap1">
+            Audiophile is your main source for high-end audio equipment, CDs, LPs, and home theatre.
+    </div>
+</div>
+
+<div class="item">
+    <img src="images/2.jpg" alt="Image Filler" class="img-responsive">
+    <div class="carousel-caption" id="cap2">
+    Rent audio equipment and test it out at home.
+    </div>
+</div>
+    <div class="item">
+    <img src="images/3.jpg" alt="Image Filler" class="img-responsive">
+        <div class="carousel-caption" id="cap3">
+        In house technicians to solve your problems.
+        </div>
+    </div>
+</div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" id="left" href="#carousel-example-generic" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" id="right" href="#carousel-example-generic" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+</div>
+
+<section class="container productShowcase">
+    <h1 class="hidden">Product Showcase</h1>
+
+    <div class="row">
+
+        <div class="col-xs-3 showcase">
+            <img src="images/speaker1.jpg" alt="Speakers" class="img-responsive" />
+            <p class="showcaseText">Speakers</p>
+        </div>
+
+        <div class="col-xs-3 showcase">
+            <img src="images/dac1.jpg" alt="DAC" class="img-responsive" />
+            <p class="showcaseText">DAC</p>
+        </div>
+
+        <div class="col-xs-3 showcase">
+            <img src="images/turntable1.jpg" alt="Headphones" class="img-responsive" />
+            <p class="showcaseText">Headphones</p>
+        </div>
+
+        <div class="col-xs-3 showcase">
+            <img src="images/receiver1.jpg" alt="Home Theatre" class="img-responsive" />
+            <p class="showcaseText">Receivers</p>
+        </div>
+    </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

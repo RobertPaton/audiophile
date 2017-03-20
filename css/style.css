@@ -1,0 +1,155 @@
+body
+{
+    font-family: arial;
+}
+
+/*Nav Start*/
+nav a
+{
+    color: #707069;
+    font-size: 120%;
+    padding: 1.9%;
+}
+
+#nav
+{
+    background-color: white;
+    border: none;
+    border-radius: 0;
+    border-bottom: solid 1px #777;
+}
+
+#navLink li a
+{
+    padding-top: 79px;
+    padding-bottom: 0;
+}
+
+#navLink li a:hover
+{
+    color: #c2a419;
+    transition: .2s ease-in-out;
+    -webkit-transition: .2s ease-in-out;
+    -moz-transition: .2s ease-in-out;
+    -ms-transition: .2s ease-in-out;
+    text-decoration: none;    
+}
+/*Nav End*/
+
+@media (max-width: 950px) {
+    #cap1
+    {
+        display: none;
+    }
+    #cap2
+    {
+        display: none;
+    }
+    #cap3
+    {
+        display: none;
+    }
+    #left
+    {
+        display:none;
+    }
+    #right
+    {
+        display:none;
+    }
+}
+
+
+/*Product Showcase Start*/
+.showcaseText
+{
+    color: #707069;
+    text-align: center;
+    font-size: 120%;
+}
+
+.productShowcase
+{
+    border-bottom: solid 1px #707069;
+}
+
+@media (max-width: 480px) {
+    .showcaseText
+    {
+        font-size: 3vw;
+    }
+}
+/*Product Showcase End*/
+
+/*About Start*/
+.aboutText
+{
+    
+    font-size: 1.2em;
+    line-height: 20px;
+}
+/*About End*/
+
+/*Products Start*/
+.productGroup
+{
+    border-bottom: solid 1px #707069;
+}
+
+.product p
+{
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    color: #707069;
+}
+
+/*Text and causes layout issues when viewport is small, can't solve issue.*/
+@media (max-width: 649px) {
+    .product p
+    {
+        font-size: 2vw;
+    }
+}
+
+.groupText
+{
+    font-size: 3vw;
+}
+/*Products End*/
+
+/*Footer Start*/
+footer a
+{
+    color: #707069;
+    font-size: 1.2em;
+    padding: 1.9%;
+}
+
+.bs-docs-footer
+{
+    text-align: center;
+}
+
+footer a:hover
+{
+	color: #c2a419;
+	transition: .2s ease-in-out;
+	-webkit-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-ms-transition: .2s ease-in-out;
+    text-decoration: none;
+}
+
+@media (max-width: 785px) {
+    footer img
+    {
+        width: 10%;
+    }
+}
+
+#aboutFoot
+{
+    bottom: 0;
+}
+/*Footer End*/

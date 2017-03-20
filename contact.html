@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <title>Audiophile - Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<!--Notes-->
+<!--HTML5 outliner showing Footer before everything else again.-->
+
+    <nav class="navbar navbar-default" id="nav">
+        <div class="container-fluid" id="cont">
+            <div class="navbar-header" id="navHead">
+                <img src="images/logo.svg" alt="Audiophile Logo">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right" id="navLink">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container">
+        <h1 class="hidden">Contact Form</h1>
+        <div class="row">
+            <div class="col-xs-12">
+                <form role="form">
+
+                    <div class="form-group">
+                        <label for="InputName">Name</label>
+                        <input type="text" class="form-control" id="InputName" placeholder="Enter Name" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputEmail">Email Address</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputText">Message</label>
+                        <input type="text" class="form-control" id="InputText" placeholder="Enter Text" />
+                    </div>
+                    <button type="button" class="btn btn-default">Send</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
